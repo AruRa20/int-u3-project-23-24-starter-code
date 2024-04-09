@@ -77,10 +77,15 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-.option-one-screen,
-.option-two-screen,
-.option-one-end,
-.option-two-end {
+.wakeup-screen ,
+.stayhome-screen ,
+.outside-screen ,
+.outside2-screen ,
+.novel-screen ,
+.novel2-screen ,
+.novel3-screen ,
+.game-screen ,
+.outside-end {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -90,20 +95,30 @@ button:hover {
 }
 
 /* Style the images in the screens */
-.option-one-screen img,
-.option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+.wakeup-screen img,
+.stayhome-screen img,
+.outside-screen img,
+.outside2-screen img,
+.novel-screen img,
+.novel2-screen img,
+.novel3-screen img,
+.game-screen img,
+.outside-end img{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 /* Style the text in the screens */
-.option-one-screen h1,
-.option-two-screen h1,
-.option-one-end h1,
-.option-two-end h1 {
+.wakeup-screen h1,
+.stayhome-screen h1,
+.outside-screen h1,
+.outside2-screen h1,
+.novel-screen h1,
+.novel2-screen h1,
+.novel3-screen h1,
+.game-screen h1,
+.outside-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }

@@ -1,8 +1,8 @@
 // Declare variables below to save the different divs of your story.
-
-
-
-
+let homeButton = document.querySelector(".home-button");
+let outButton = document.querySelector(".out-button");
+let readButton = document.querySelector(".read-button");
+let gameButton = document.querySelector(".games-button");
 
 
 
