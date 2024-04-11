@@ -1,13 +1,17 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
-.option-two-end  {
+.wakeup-screen,
+.stayhome-screen ,
+.outside-screen ,
+.outside2-screen ,
+.novel-screen ,
+.novel2-screen ,
+.novel3-screen ,
+.game-screen ,
+.outside-end  {
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -122,3 +126,15 @@ button:hover {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+
+/* 
+TO MAKE IMAGE FADE
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+} */
